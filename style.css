@@ -10,18 +10,27 @@ body {
 	padding: 20px 0;
 }
 
+.header-container {
+	display: flex;
+	justify-content: space-between;
+}
+
 .header-nav {
 	display: flex;
 }
 
 .header-nav-list {
-
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
 }
 
-.header-nav-item {
-
+.header-nav-item:not(:last-of-type){
+	margin-right: 20px;
 }
 
 .header-nav-link {
-
+	padding: 7px 10px;
+	text-decoration: none;
+	color: black;
 }
